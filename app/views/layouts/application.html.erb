@@ -7,9 +7,17 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="header">
+      <p>Wikiminous</p>
+      <p><%= link_to "+ New article", new_article_path  %></p>
+    </div>
+    <div class="container">
+      <%= yield %>
+      <footer>Made at Le Wagon with ❤️ and 🚀</footer>
+    </div>
   </body>
 </html>

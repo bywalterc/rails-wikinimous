@@ -1,0 +1,9 @@
+<h1>Edit Article: <%= @article.title %></h1>
+
+<div class="boxed">
+  <%= render 'form', article: @article %>
+</div>
+
+<div class="bottom-link">
+  <%= link_to "⟵ Back to list", articles_path  %>
+</div>

@@ -1,0 +1,40 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.containter {
+}
+
+.article-list {
+  margin: 10px 0px;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.boxed {
+  margin: 10px 0px;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 32px !important;
+  color: rgba(0,0,0,0.4) !important;
+}
+
+footer {
+  margin: 50px 0px 100px 0px;
+}

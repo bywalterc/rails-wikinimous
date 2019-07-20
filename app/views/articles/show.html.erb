@@ -1,0 +1,12 @@
+<h1><%= @article.title %></h1>
+<div class="boxed">
+  <p> <%=  @article.content %></p>
+  <button type="button" class="btn btn-light btn-lg"><%= link_to "✍️ Edit article", edit_article_path(@article)  %></button>
+  <p> <%= link_to "🗑", article_path(@article), method: :delete %></p>
+</div>
+
+
+
+<div class="bottom-link">
+  <%= link_to "⟵ Back to list", articles_path  %>
+</div>
